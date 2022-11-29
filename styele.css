@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color1: hsl(0, 0%, 81%);
+    --bg-color: hsl(210, 46%, 95%);
+    --testimonial-1: hsl(263, 55%, 52%);
+    --testimonial-2: hsl(217, 19%, 35%);
+    --testimonial-4: hsl(219, 29%, 14%);
+    --white: hsl(0, 0%, 100%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: rgb(243, 97, 97);
+
+}
+
+.testimonial-1, .testimonial-2, .testimonial-3, .testimonial-4, .testimonial-5 {
+    border-radius: 10px;
+}
+
+.testimonial-1 {
+    background-color: var(--testimonial-1);
+}
+
+.testimonial-2 {
+    background-color: var(--testimonial-2);
+}
+
+.testimonial-4 {
+    background-color: var(--testimonial-4);
+}
+
+.testimonial-1 > blockquote, .testimonial-2 > blockquote, .testimonial-4 > blockquote {
+    color: var(--white);
+}
+
+.testimonial-1 > .past-journey, .testimonial-2 > .past-journey, .testimonial-4 > .past-journey {
+    color: hsl(0, 0%, 81%);
+}
+
+.testimonial-3, .testimonial-5 {
+    background-color: var(--white);
+}
+
+.ts1 {
+    color: hsl(0, 0%, 81%);
+}
+
+.bt1 {
+    color: var(--white);
+}
